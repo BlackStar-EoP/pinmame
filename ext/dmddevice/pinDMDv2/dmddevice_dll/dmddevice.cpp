@@ -8,6 +8,13 @@
 #include "..\..\dmddevice.h"
 #include "..\..\usbalphanumeric.h"
 
+#ifdef _WIN64
+	#pragma comment(lib, "../libusb/lib/libusb_x64.lib")
+#else
+	#pragma comment(lib, "../libusb/lib/libusb_x86.lib")
+	#pragma comment(lib, "../libusb/lib/libusb_x86.lib")
+#endif
+
 //define vendor id and product id
 #define VID 0x0314
 #define PID 0xe457

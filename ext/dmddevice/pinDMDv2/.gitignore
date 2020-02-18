@@ -1,0 +1,7 @@
+Release/*
+.vs/
+Debug/
+dmddevice_dll/Debug/*
+dmddevice_dll/Release/*
+dmddevice_dll/dmddevice_dmd_dll.vcxproj.user
+dmddevice_dll/x64/*
